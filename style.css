@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 3em;
+    padding: 40px;
+    color: #001f4d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    line-height: 2em;
+}
+.divpo{
+    background-image: url("../200.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    
+}
+.divco{
+    background-image: url("../backgroundimg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+/* unvisited link */
+a:link {
+    color: black;
+  }*/
+  
+  /* visited link */
+  a:visited {
+    color: yellow;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 22em;
+    padding-top: 1em;
+
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+header ul{
+    margin: auto;
+    text-align: center;
+}
+header a {
+    text-decoration: underline;
+    color: black;
+
+}
+
+ul{
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+
+}
+h2{
+
+}
+p{
+    text-align: center;
+    padding-left: 6em;
+    padding-right: 6em;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+.section h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#intro .profile-img {
+    width: 200px;
+    border-radius: 100%; /* Add this line */
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+
+}
+/*#intro {
+    background-image: url("../482.jpg");
+}
